@@ -1,0 +1,331 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Main menu",
+        "Homepage",
+        "mainmenu",
+        "back",
+        "return",
+        "menu"
+      ],
+      "responses": [
+              "Hi, Welcome to UTeM Newbie AI Chatbot. I am Hero. Please type one of the option: Hostel/Faculty/Facilities/Prohibition/Cafe/Shuttle Bus/Convenience Store/FKEKK/ FKE/ FTKM/ FTKIP/ FTMK/ FPTT/ Library/ Exchange Programs/Health Services/Tuition fees/Scholarships/ Admissions/UTeM Official Website/Other Questions eg:Hostel"
+        ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Exit", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting UTeM Newbie AI Chatbot. Click back to homepage"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "end",
+        "bye"
+      ],
+      "responses": [
+                "You're welcome, Thank you for visiting UTeM Newbie AI Chatbot. Click back to homepage"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Can you list down the hostel names at UTEM",
+        "What are the hostel names in UTEM",
+        "Hostel"
+      ],
+      "responses": [
+        "We have Satria (Kasturi, Lekir, Lekiu, Jebat), Lestari, Al Jazari"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Tell me the Faculty names",
+        "What is the faculty that is available at UTEM?",
+        "Faculty"
+      ],
+      "responses": [
+        "Six faculties which is FTMK,FKEKK,FKE,FTKM,FTKIP,FPTT"
+      ]
+    },
+    {
+  "tag": "fkekk",
+  "patterns": [
+    "What is FKEKK",
+    "Tell me about FKEKK",
+    "Information about FKEKK",
+    "FKEKK"
+  ],
+  "responses": [
+    "FKEKK stands for Fakulti Teknologi dan Kejuruteraan Elektronik dan Komputer. It is the Electronic (Computer) faculty at UTeM. FKEKK is located beside Kafe 1, Blue Building. For more info visit https://ftkek.utem.edu.my/"
+  ]
+},
+{
+  "tag": "fke",
+  "patterns": [
+    "What is FKE",
+    "Tell me about FKE",
+    "Information about FKE",
+    "FKE"
+  ],
+  "responses": [
+    "FKE stands for Fakulti Kejuruteraan Elektrik. It is the Electrical faculty at UTeM. FKE is located beside Kafe 1, Orange Building. For more info visit https://ftke.utem.edu.my/index.php/en/"
+  ]
+},
+{
+  "tag": "ftkm",
+  "patterns": [
+    "What is FTKM",
+    "Tell me about FTKM",
+    "Information about FTKM",
+    "FTKM"
+  ],
+  "responses": [
+    "FTKM stands for Fakulti Teknologi dan Kejuruteraan Mekanikal. It is the Mechanical faculty at UTeM. FTKM is located at Technology Campus. For more info visit https://ftkm.utem.edu.my/"
+  ]
+},
+{
+  "tag": "ftkip",
+  "patterns": [
+    "What is FTKIP",
+    "Tell me about FTKIP",
+    "Information about FTKIP",
+    "FTKIP"
+  ],
+  "responses": [
+    "FTKIP stands for Fakulti Teknologi dan Kejuruteraan Industri dan Pembuatan. It is the Manufacturing Engineering Faculty at UTeM. FTKIP is located in front of FTMK. For more info visit https://ftkip.utem.edu.my/"
+  ]
+},
+{
+  "tag": "ftmk",
+  "patterns": [
+    "What is FTMK",
+    "Tell me about FTMK",
+    "Information about FTMK",
+    "FTMK"
+  ],
+  "responses": [
+    "FTMK stands for Fakulti Teknologi Maklumat dan Komunikasi. It is the IT Faculty at UTeM. FTMK is located in front of UTeM Library, in the Yellow Building. For more information visit https://ftmk.utem.edu.my/web/"
+  ]
+},
+{
+  "tag": "fptt",
+  "patterns": [
+    "What is FPTT",
+    "Tell me about FPTT",
+    "Information about FPTT",
+    "FPTT"
+  ],
+  "responses": [
+    "FPTT stands for Fakulti Pengurusan Teknologi dan Teknousahawanan. It is the Management & Technopreneurship Faculty at UTeM. FPTT is located at Technology Campus. For more information visit https://fptt.utem.edu.my/"
+  ]
+},
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What are the Facilities available at UTEM?",
+        "Tell me about the facilities at UTEM?",
+        "Facilities"
+      ],
+      "responses": [
+        "We have Kompleks Sukan (Sports complex), Dewan Badminton (Badminton Court), Stadium to play football and jog on the track, Tasik UTEM where you can have a walk, Library where you can have your reading time"
+
+      ]
+    },
+    {
+      "tag": "prohibition",
+      "patterns": [
+        "Can I bring a car to the campus?",
+        "Is bringing a car allowed for 1st and 2nd-year students?",
+        "What are the restrictions on bringing a car?",
+        "What is the entry time for the campus?",
+        "Can I enter the campus after midnight?",
+        "Are there any restrictions on going out after midnight?",
+        "Is cooking allowed in the hostel?",
+        "Prohibition"
+      ],
+      "responses": [
+        "For 1st and 2nd-year students, bringing a car to the campus is not allowed.The campus can be entered between 6 am to 12 am only.Going out and walking outside the campus is prohibited between 12 am to 6 am.Cooking is not allowed in the hostel."
+      ]
+    },
+    {
+      "tag": "cafe",
+      "patterns": [
+        "Tell me about the cafes at UTEM",
+        "List the cafes in UTEM",
+        "Cafe names",
+        "What is offered in Richiammo Cafe?",
+        "Tell me about He & She Coffee Shop",
+        "Cafe"
+      ],
+      "responses": [
+        "There are 4 cafes at UTEM: Cafe Satria, Cafe Lestari, Cafe 1, and Cafe 2. Richiammo Cafe and He & She Coffee Shop are also available."
+      ]
+    },
+    {
+      "tag": "shuttle bus",
+      "patterns": [
+        "Is there a shuttle bus service at UTEM?",
+        "Tell me about the shuttle bus",
+        "From where does the shuttle bus operate?",
+        "Where does the bus go?",
+        "How can I get the bus timetable?",
+        "Shuttle bus"
+      ],
+      "responses": [
+        "Shuttle bus service is available from Bus stop Satria and other bus stops around the campus.The bus goes to Kampus Teknologi and Kampus Induk. You can obtain the bus timetable from the telegram information page."
+      ]
+    },
+    {
+      "tag": "convenience store",
+      "patterns": [
+        "Is there a convenience store around the campus?",
+        "Tell me about the convenience stores at UTEM",
+        "How many convenience stores are there in Satria?",
+        "Are there convenience stores in both the main campus and technology campus?",
+        "Convenience store"
+      ],
+      "responses": [
+        "Yes, there is a few convenience store around the campus.There are many convenience stores in both the main campus and technology campus."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "What services does the UTeM library offer?",
+        "Tell me about UTeM library resources",
+        "Library"
+      ],
+      "responses": [
+        "The UTeM library provides a wide range of resources, including books, journals, and online databases. You can access these resources for academic research and study purposes."
+      ]
+    },
+    {
+      "tag": "exchange programs",
+      "patterns": [
+        "Are there international exchange programs at UTeM?",
+        "Tell me about UTeM study abroad opportunities",
+        "Exchange Programs"
+      ],
+      "responses": [
+        "Yes, UTeM offers international exchange programs for students. Contact the international affairs office for details on studying abroad and exchange partnerships."
+      ]
+    },
+    {
+      "tag": "health services",
+      "patterns": [
+        "Are there health services available on campus?",
+        "Tell me about UTeM health facilities",
+        "Health Services"
+      ],
+      "responses": [
+        "UTeM provides health services for students on campus. You can visit the health center for medical assistance or information about health and wellness programs."
+      ]
+    },
+    {
+      "tag": "tuition fees",
+      "patterns": [
+        "How much are the tuition fees at UTeM?",
+        "Tell me about UTeM tuition costs",
+        "How much is the fees need to pay",
+        "Tuition fees"
+      ],
+      "responses": [
+        "Tuition fees at UTeM vary depending on the program and other factors. For detailed information, please check the official UTeM website or contact the finance office."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Are there scholarships available at UTeM?",
+        "Tell me about UTeM scholarships",
+        "Free education aid",
+        "Scholarships"
+      ],
+      "responses": [
+        "Yes, UTeM offers various scholarships. You can find details on eligibility and application procedures on the official UTeM website or by contacting the scholarship office."
+      ]
+    },
+    {
+  "tag": "admissions",
+  "patterns": [
+    "How can I apply for admission to UTeM?",
+    "Tell me about the admission process",
+    "Admissions"
+  ],
+  "responses": [
+    "To apply for admission to UTeM, you can visit the official admissions portal on the university website. The process may vary for different programs, so be sure to follow the guidelines provided on the admissions page."
+  ]
+},
+
+{
+  "tag": "official_websites",
+  "patterns": [
+    "What is the Official UTeM Website?",
+    "Give me the link to the official UTeM website",
+    "UTeM Official Website",
+    "Official website",
+    "Website",
+    "website"
+  ],
+  "responses": [
+    "The official UTeM website is https://www.utem.edu.my/en/"
+  ]
+},
+    {
+  "tag": "other_questions",
+  "patterns": [
+    "Other question",
+    "Other Questions",
+    "Any other information",
+    "Additional queries",
+    "Related questions"
+  ],
+  "responses": [
+    "Any other related questions? Feel free to contact us at any time via WhatsApp. Here are some representatives you can reach out to: 1. Puan Marlina - 0182886612 (HEPA Representative), 2. Encik Hafiz - 0172136672 (Faculty Representative), 3. Encik Danny Tay - 0183238123 (Satria Hostel Representative), 4. Puan Gina - 0167829912 (Lestari Hostel Representative), 5. Encik Kumaran - 0142182212 (Al Jazari Hostel Representative), 6. Encik Haziq - 0128765312 (Student Council Representative)"
+  ]
+},
+
+    {
+      "tag": "validation",
+      "patterns": [
+        "You're awesome",
+        "I love you",
+        "I think you're great",
+        "Tell me a secret",
+        "What's the meaning of happiness?",
+        "Can you sing?",
+        "How old are you?",
+        "Do you have feelings?",
+        "Are you stupid?",
+        "Dont you have brain?",
+        "Are you idiot?",
+        "qqqqwertyuioplkjhgfdsazxcvbnpoiuytrertyuiolkjhgfdsdfghjkl,mnbvcxcvbnm,mnbvcxsdfguioplkjnbvcxsdrtyukmnbvcxdftyuiknbvcxdrtyuknbvcdfrtyujnbvcdftyuikmndbvsfjksdlpfoisdhgfdskjfjihadhgfnqewkjfdyadghfkjhdsfdm,.//////';[poiuytresdcfvgbhjkmnbvcxswertyuiklkmnbvcxzsadrtyjnbvcdfghnbvcxsertyhjhbv"
+      ],
+      "responses": [
+        "I'm just a computer program, but I appreciate the compliment!",
+        "Thank you! I'm here to assist you.",
+        "I'm afraid I can't share secrets, but I can provide information about UTeM. What would you like to know?",
+        "The meaning of happiness varies for each person. How can I assist you with information about UTeM?",
+        "I don't have a voice, but I'm great at providing information! Is there something specific you'd like to know about UTeM?",
+        "I don't have an age or feelings, but I'm here to help with any questions you have about UTeM.",
+        "I don't have feelings, but I'm ready to assist you with information. What can I help you with today?"
+      ]
+    }
+  ]
+}
