@@ -2,6 +2,8 @@
 
 In this tutorial we deploy the chatbot I created by getting the ideas from [this](https://github.com/python-engineer/pytorch-chatbot) tutorial with Flask and JavaScript. Then i implement the idea by inducing the UTeM based environment queries into the system. In this README i will guide you all on how to create a simple chatbot.
 
+Thank you to Patrick Loeber for the inspiration for me to take up and venture more on this Hi-UTeM project.
+
 This gives 2 deployment options:
 - Deploy within Flask app with jinja2 template 
 - Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
